@@ -1,0 +1,186 @@
+@import '~antd/dist/antd.css';
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.active{
+  width:100px;
+  height:100px;
+  background: black;
+}
+
+*{
+  padding:0;
+  margin:0;
+}
+ul,li{
+  list-style: none;
+}
+/* 2019-10-23 */
+/* 在Components里 */
+.header{
+  height: 60px;
+  background-color:rgb(37, 35, 35);
+}
+.header header{
+  width:1200px;
+  line-height: 60px;
+  margin:0 auto;
+}
+.header input{
+  height:35px;
+  border-radius: 17px;
+  border: none;
+  width:250px;
+  background: rgb(177, 177, 177);
+  margin-left: 40px;
+}
+.header img{
+  width:120px;
+}
+.header header a{
+  margin:0 20px;
+  color: #fff;
+}
+body{
+  background: lightgrey;
+}
+/* 在App.js里 */
+.content{
+  width: 1200px;
+  margin:10px auto 0;
+}
+.content-left{
+  background: white;
+  width:900px;
+  float: left;
+}
+.content-right{
+  background: lightgrey;
+  width:270px;
+  height: 500px;
+  float: right;
+}
+.right{
+  width:270px;
+  height:150px;
+  background: white;
+  margin-bottom: 20px;
+  padding:20px 0 0 10px;
+}
+.right button{
+  height:30px;
+  width:120px;
+  background: lightskyblue;
+  color: white;
+  border: none;
+}
+/* Link的样式 Link就是个a标签 */
+
+/* home文件夹里 */
+/* Home */
+.hHeader{
+  width:900px;
+  line-height: 40px;
+  background: rgb(238, 238, 238);
+  font-size: 15px;
+}
+.hLink{
+  color: rgb(148, 212, 88);
+  margin:0 20px;
+}
+/* 其他所有 */
+.Top{
+  width:900px;
+  line-height: 40px;
+  background: rgb(238, 238, 238);
+  font-size: 15px;
+  padding-left: 20px;
+}
+.Top span{
+  color: rgb(148, 212, 88);
+}
+/* Login */
+.loginBody{
+  width:900px;
+  height: 260px;
+  background: white;
+  padding:40px 0 0 200px;
+}
+.loginInput{
+  line-height: 30px;
+  width:500px;
+  margin-top:20px ;
+}
+.loginInput input{
+  width:300px;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  margin-left: 10px ;
+}
+.loginBut{
+  line-height: 30px;
+  width:500px;
+  margin: 30px 0 0 55px;
+}
+.loginBut button{
+  background: lightskyblue;
+  color: white;
+  border: none;
+  width:200px;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+/* All ... 都在 */
+.Li{
+  border-bottom: 0.5px solid lightgray;
+  line-height:50px;
+  padding:0 10px 0 10px;
+}
+.Img{
+  width:35px;
+  height:35px;
+}
+.Img2{
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+.Span{
+  margin:0 10px 0 10px;
+}
+.Title{
+  font-size: 15px;
+  color: black;
+}
+.Time{
+  float: right;
+}
+.Pages{
+  margin-left:20px;
+  height: 30px;
+}
+.Pages li{
+  float: left;
+  width:50px;
+  line-height:30px;
+  border: 1px solid lightgray;
+  border-right: none;
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
+}
+.Pages li:last-child{
+  border-right: 1px solid lightgrey;
+}
